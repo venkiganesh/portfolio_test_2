@@ -1,0 +1,301 @@
+
+.nav-bar-sm{
+  background-color: #8B143F;
+  color: #000;
+}
+.navbar-toggler span{
+  border: 0px;
+  outline: none;
+}
+.container-fluid{
+  color: white;
+  font-weight:bolder;
+
+}
+#home{
+  margin-top: -50px;
+  height: 100vh;
+background-image: url(https://thumbs.gfycat.com/RequiredGenerousCob-size_restricted.gif);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+  }
+  #about{
+  height: 200vh;
+
+}
+
+#contact{
+  height: 30vh;
+  background-color: #8B143F;
+border-radius: 60px 20px;
+}
+.img-1{
+  width: 100%;
+  height: 100vh;
+}
+#home{
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.junck-head{
+  font-size: 30px;
+  font-weight: bolder;
+  color: #d4d4d4;
+  text-align: center;
+margin-top: 6em;
+}
+.home-text{
+  margin-top: 150px;
+  height: 50vh;
+    text-align: center;
+    color: white;
+}
+
+.home-text h1{
+  line-height: 60px;
+  cursor: pointer;
+}
+.home-text h1:nth-child(1){
+animation: comein1 1s linear;
+animation-fill-mode:forwards;
+animation-delay: 1s;
+visibility: hidden;
+}
+@keyframes comein1 {
+  from{
+    visibility: hidden;
+    transform: translateY(100px);
+  }
+  to{
+    visibility: visible;
+    transform: translateY(0px);
+
+  }
+}
+.home-text h1:nth-child(2){
+animation: comein2 1s linear;
+animation-fill-mode:forwards;
+animation-delay: 2s;
+visibility: hidden;
+}
+@keyframes comein2 {
+  from{
+    visibility: hidden;
+    transform: translateY(100px);
+  }
+  to{
+    visibility: visible;
+    transform: translateY(0px);
+
+  }
+}
+
+.home-text h1:nth-child(3){
+animation: comein3 1s linear;
+animation-fill-mode:forwards;
+animation-delay: 3s;
+visibility: hidden;
+}
+@keyframes comein3 {
+  from{
+    visibility: hidden;
+    transform: translateY(100px);
+  }
+  to{
+    visibility: visible;
+    transform: translateY(0px);
+
+  }
+}
+.home-text p{
+  margin-top: 20px;
+animation: comein4 1s linear;
+animation-fill-mode:forwards;
+animation-delay: 4s;
+visibility: hidden;
+}
+@keyframes comein4 {
+  from{
+    visibility: hidden;
+    transform: translateY(100px);
+  }
+  to{
+    visibility: visible;
+    transform: translateY(0px);
+
+  }
+}
+.home-text button{
+animation: comein5 1s linear;
+animation-fill-mode:forwards;
+animation-delay: 6s;
+visibility: hidden;
+}
+@keyframes comein5 {
+  from{
+    visibility: hidden;
+    transform: translateY(100px);
+  }
+  to{
+    visibility: visible;
+    transform: translateY(0px);
+
+  }
+}
+
+
+.contact-btn{
+  border-radius: 5px;
+font-weight: bold;
+background-color: #F8F9FA;
+padding: 10px;
+margin-top: 20px;
+}
+.contact-btn:hover{
+  background-color: #0DCAF0;
+  color: black;
+}
+
+.contact-link{
+  text-decoration: none;
+  color: black;
+}
+
+.about-txt{
+  font-size: 20px;
+  margin-top: 50px;
+  padding: 5px;
+}
+.skill{
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+
+.bottom{
+  position: absolute;
+margin-top: 200px;
+  z-index: 1;
+}
+.skill-box-2 i{
+  margin-left: 50px;
+  cursor: pointer;
+}
+.p-body{
+  height: 10vh;
+  background-color: #F8F9FA;
+}
+.p-body i{
+  font-size: 25px;
+letter-spacing: 10px;
+cursor: pointer;
+margin-top: 4px;
+}
+
+.p-body i:nth-child(1){
+  margin-left: 5px;
+}
+
+.card{
+  margin: 30px;
+  border: 0px;
+}
+
+.project{
+  margin-top: 30px;
+}
+.heading-1{
+  margin: 50px;
+  text-align: center;
+}
+
+.mar{
+  margin-left: 50px;
+}
+
+.save{
+  margin-top: -50px;
+  margin-left: 210px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.like{
+  color: red;
+  font-size: 25px;
+  margin: 5px;
+  position: absolute;
+  right:0;
+  opacity: 0;
+}
+
+.w-clone-lg{
+  margin-left: 60px;
+}
+.card-box-lg{
+  text-align: center;
+  justify-content: center;
+}
+.card-box-lg .p-body{
+  text-align: left;
+}
+.card-box-lg .card{
+display: inline-grid;
+}
+
+.card-height{
+  height: 24vh;
+}
+
+.nav-bar-lg ul{
+  margin-left: 50em;
+  color: white;
+}
+.figma{
+  width: 200px;
+  margin-top: -70px;
+  margin-left: 20px;
+}
+.sql{
+  width: 300px;
+  margin-top: -70px;
+  margin-left: -45px;
+}
+
+.skill-box-3{
+  margin-left: 80px;
+  cursor: pointer;
+}
+#contact .contact-social-head{
+  text-align: center;
+  margin-top:80px;
+  color: white;
+
+
+}
+
+.contact-social-icons{
+  color: white;
+  letter-spacing: 20px;
+text-align: center;
+margin-top: 30px;
+
+}
+.contact-social-icons i{
+cursor: pointer;
+}
+.fa-instagram:hover{
+  color: #bc2a8d;
+}
+.fa-twitter:hover{
+  color: #00A7E7;
+}
+.fa-envelope:hover{
+  color: #CC2D29;
+}
+.fa-github:hover{
+  color: #000;
+}
